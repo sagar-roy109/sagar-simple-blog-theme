@@ -7,13 +7,11 @@
 get_header(); ?>
 <body <?php body_class(); ?>>
 
-     /**
- * Get Hero section
- * */<?php
+<?php
 /**
      * Get Hero section
      * */
-?>get_template_part('template-parts/hero'); ?>
+get_template_part('template-parts/hero'); ?>
 
     <div <?php post_class(); ?>>
         <?php while (have_posts()) {
